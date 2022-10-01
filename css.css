@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(22, 22, 22);
+  }
+  .navbar {
+    width: 100%;
+    
+  }
+  .navbar_section {
+    border-radius: 5px;
+    background-color: black;
+    margin: 0 auto;
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    padding: 12px 0px;
+    justify-content: space-between;
+  }
+  .navbar_section_left {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    color: white;
+  }
+  .navbar_section_right_atag {
+    text-decoration: none;
+    font-family: sans-serif;
+    color:grey;
+    padding-right: 5px;
+  }
+  .navbar_section_right_atag:hover {
+    color: white;
+    text-decoration: underline;
+    border-radius: 5px;
+  }
+  .main {
+    width: 100%;
+  }
+  .main_inside {
+    font-family: sans-serif;
+    margin: 0 auto;
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4em 2em;
+  }
+  .hrTag{
+    margin: 0 auto;
+    max-width: 1080px;
+    padding: 4em 0em;
+  }
+  .main_inside_left {
+    max-width: 500px;
+  }
+  .about_portion{
+    font-family: sans-serif;
+    color: white;
+    margin: 0 auto;
+    max-width: 1080px;
+  }
+  .cards{
+    margin:0;
+}
+.cards_section{
+  margin:0 auto;
+  display: flex;
+    max-width: 1080px;
+    justify-content: space-between;
+    margin-top: 5em;
+  }
+  .cards_section_boxes{
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .footer{
+    margin: 0 auto;
+    max-width: 1080px;
+    background-color: black;
+  height: 300px;
+  margin-top: 8em;
+  font-family: sans-serif;
+  color: white;
+  
+  }
