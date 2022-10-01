@@ -57,11 +57,17 @@
   .main_inside_left {
     max-width: 500px;
   }
+  .main_inside_right{
+    padding: 2em;
+  }
+
   .about_portion{
     font-family: sans-serif;
     color: white;
     margin: 0 auto;
     max-width: 1080px;
+    padding: 
+    2em;
   }
   .cards{
     margin:0;
@@ -107,6 +113,8 @@
      
     }
 
+
+
   }
 
 
@@ -120,4 +128,26 @@
 
 
   }
+
 }
+
+
+@media(max-width: 750px){
+  .main_inside{
+    flex-direction: column-reverse;
+  }
+
+
+}
+
+@media(max-width: 400px){
+  .main_inside_right img{
+    width: 100%;
+    
+  }
+  .about_portion{
+    padding: 10px;
+  }
+
+}
+
