@@ -89,3 +89,31 @@
   color: white;
   
   }
+  @media(max-width: 950px){
+    .cards_section{
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+     
+    }
+    .cards_section_boxes{
+      width: 25%;
+      margin: 1%;
+     
+    }
+
+  }
+
+
+
+
+  @media(max-width: 500px){
+    .cards_section_boxes{
+      margin: 2%;
+      width:100% !important;
+
+
+
+  }
+}
